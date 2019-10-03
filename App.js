@@ -24,15 +24,20 @@ function Item({title}) {
   );
 }
 
+export const renderFlatList = data => {
+  return (
+    <FlatList
+      testID="flat-list"
+      data={data}
+      renderItem={({item}) => <Item title={item.title} />}
+      keyExtractor={item => item.id}
+    />
+  );
+};
+
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <FlatList
-        data={DATA}
-        renderItem={({item}) => <Item title={item.title} />}
-        keyExtractor={item => item.id}
-      />
-    </SafeAreaView>
+    <SafeAreaView style={styles.container}>{renderFlatList(DATA)}</SafeAreaView>
   );
 }
 
