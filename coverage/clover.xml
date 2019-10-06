@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1570344643235" clover="3.2.0">
-  <project timestamp="1570344643235" name="All files">
-    <metrics statements="23" coveredstatements="23" conditionals="3" coveredconditionals="3" methods="11" coveredmethods="11" elements="37" coveredelements="37" complexity="0" loc="23" ncloc="23" packages="2" files="5" classes="5"/>
+<coverage generated="1570345131409" clover="3.2.0">
+  <project timestamp="1570345131410" name="All files">
+    <metrics statements="23" coveredstatements="23" conditionals="6" coveredconditionals="5" methods="11" coveredmethods="11" elements="40" coveredelements="39" complexity="0" loc="23" ncloc="23" packages="2" files="5" classes="5"/>
     <package name="nativeJestEnzyme">
       <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
       <file name="App.js" path="/Users/lucasbarga/git/nativeJestEnzyme/App.js">
@@ -24,16 +24,16 @@
       </file>
     </package>
     <package name="nativeJestEnzyme.services">
-      <metrics statements="11" coveredstatements="11" conditionals="3" coveredconditionals="3" methods="4" coveredmethods="4"/>
+      <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
       <file name="centralAPI.js" path="/Users/lucasbarga/git/nativeJestEnzyme/services/centralAPI.js">
-        <metrics statements="7" coveredstatements="7" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="6" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="7" count="1" type="stmt"/>
         <line num="9" count="2" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="2" falsecount="1"/>
+        <line num="16" count="1" type="stmt"/>
       </file>
       <file name="storedAppData.js" path="/Users/lucasbarga/git/nativeJestEnzyme/services/storedAppData.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>

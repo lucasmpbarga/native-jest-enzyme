@@ -11,8 +11,7 @@ export const getResidencialApolices = async (cpf = undefined) => {
       '/cfe-als/api/v1/proposta/residencial/buscar-propostas',
       cpf,
     );
-    return result.response;
-    // return (result.response && result.response.propostas) || [];
+    return (result.response && result.response.propostas) || [];
   } catch (error) {
     return error;
   }
