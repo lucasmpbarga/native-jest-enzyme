@@ -1,7 +1,7 @@
 import React from 'react';
 import {mount, shallow} from 'enzyme';
-import App, {renderFlatList} from '../App';
-import {util1} from '../Util';
+import App, {renderFlatList} from '../app/app';
+import {util1} from '../app/services/util';
 
 describe('Button', () => {
   describe('Rendering', () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import {SafeAreaView, View, FlatList, StyleSheet, Text} from 'react-native';
-import {util1} from './Util';
+import {util1} from './services/util';
 
 const DATA = [
   {

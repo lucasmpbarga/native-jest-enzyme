@@ -1,8 +1,8 @@
 // __tests__/user-test.js
-jest.mock('../services/requestn', () =>
-  jest.requireActual('../__mocks__/requestn'),
+jest.mock('../app/services/requestApi', () =>
+  jest.requireActual('../__mocks__/requestApi'),
 );
-import * as user from '../services/user';
+import * as user from '../app/services/user';
 
 describe('Services implementation', () => {
   it('works with promises', () => {
