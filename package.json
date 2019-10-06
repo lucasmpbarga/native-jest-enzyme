@@ -32,6 +32,7 @@
     "preset": "react-native",
     "setupFilesAfterEnv": [
       "<rootDir>/setup-jest.js"
-    ]
+    ],
+    "collectCoverage": true
   }
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import {mount, shallow} from 'enzyme';
 import App, {renderFlatList} from '../App';
+import {util1} from '../Util';
 
 describe('Button', () => {
   describe('Rendering', () => {
@@ -29,6 +30,10 @@ describe('Button', () => {
         {
           id: '58694a0f-3da1-471f-bd96-145571e29d72',
           title: 'Third Item',
+        },
+        {
+          id: '58694a0f-3da1-471f-bd96-145571e29d74',
+          title: util1('Item '),
         },
       ];
 

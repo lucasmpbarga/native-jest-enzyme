@@ -1,5 +1,6 @@
 import React from 'react';
 import {SafeAreaView, View, FlatList, StyleSheet, Text} from 'react-native';
+import {util1} from './Util';
 
 const DATA = [
   {
@@ -13,6 +14,10 @@ const DATA = [
   {
     id: '58694a0f-3da1-471f-bd96-145571e29d72',
     title: 'Third Item',
+  },
+  {
+    id: '58694a0f-3da1-471f-bd96-145571e29d74',
+    title: util1('Item '),
   },
 ];
 
