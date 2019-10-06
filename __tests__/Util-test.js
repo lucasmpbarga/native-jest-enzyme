@@ -1,4 +1,4 @@
-import {util1, util2, get} from '../Util';
+import {util1, util2} from '../Util';
 
 describe('Util', () => {
   describe('Interaction', () => {
