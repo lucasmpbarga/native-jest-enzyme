@@ -38,7 +38,7 @@ describe('Button', () => {
       ];
 
       const wrapper = setupRenderFlatList(mockData);
-      console.log(wrapper.debug());
+
       expect(wrapper.text()).toContain('First Item');
       expect(wrapper.text()).toContain('Second Item');
       expect(wrapper.text()).toContain('Third Item');

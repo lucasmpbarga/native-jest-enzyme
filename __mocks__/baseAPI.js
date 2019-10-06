@@ -1,7 +1,7 @@
 const get = async (action, data) => {
   try {
     if (data !== undefined) {
-      const json = await ('json', 10);
+      const json = await {response: {propostas: 'propostas'}};
       return Promise.resolve(json);
     }
     throw 'error';
