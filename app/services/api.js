@@ -1,7 +1,7 @@
 import {NativeModules} from 'react-native';
 import {BBRequest} from 'mov-react-native-connector';
 
-const base = `https://${NativeModules.BBRNNativeConstants.GRAFENO_SERVER}`;
+const base = `https://${NativeModules.SERVER}`;
 
 const get = async (action, data = {}) => {
   try {

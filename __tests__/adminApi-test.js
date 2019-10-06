@@ -6,7 +6,6 @@ jest.mock(
   'react-native',
   () => require.requireActual('../__mocks__/react-native').default,
 );
-jest.mock('connector', () => require.requireActual('../__mocks__/connector'));
 jest.mock(
   '../app/services/api',
   () => require.requireActual('../__mocks__/api').default,

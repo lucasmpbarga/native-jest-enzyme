@@ -7,10 +7,7 @@ export const getResidentialPolicies = async (cpf = undefined) => {
     return policiesMock.proposals;
   }
   try {
-    const result = await api.get(
-      '/cfe-als/api/v1/proposta/residencial/buscar-propostas',
-      cpf,
-    );
+    const result = await api.get('/my-path', cpf);
     return result.response.proposals;
   } catch (error) {
     return error;
