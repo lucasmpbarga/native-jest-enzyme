@@ -1,4 +1,3 @@
-/* eslint-disable no-unreachable */
 export const util1 = string => {
   return `${string}+1`;
 };

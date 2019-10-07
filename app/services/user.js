@@ -1,4 +1,3 @@
-// user.js
 import request from '../services/requestApi';
 
 export function getUserName(userID) {
