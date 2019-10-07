@@ -1,4 +1,4 @@
-export const storedAppData = {
+export const appData = {
   currentClient: null, // cliente logado
   screenID: null, // tela que vai ser chamada, no caso de deeplink será a classe que deverá ser aberta
   theme: null, // tema do usuario
@@ -6,5 +6,5 @@ export const storedAppData = {
 };
 
 export const hasToken = () => {
-  return storedAppData.hasToken;
+  return appData.hasToken;
 };
